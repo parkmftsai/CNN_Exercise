@@ -15,4 +15,6 @@ neural_art.py這支code,是將畫風移轉到一張圖的程式
 3.CNN 是基本CNN的深度延伸
 3.每一層都是影像特徵，越往下越重要
 
+free time:
+自己動手設計cnn
 ```
