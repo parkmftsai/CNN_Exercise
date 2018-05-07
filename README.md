@@ -18,3 +18,15 @@ neural_art.py這支code,是將畫風移轉到一張圖的程式
 free time:
 自己動手設計cnn
 ```
+```
+20180507
+其實我一直忽略一個關鍵點，其實小至CNN大至整個deep learn都在圍繞一個問題，就是如何找到最佳化解答
+於是我在仔細看看cnn後，其實它與GA(基因演算法)有點異曲同工之妙（個人感覺啦）
+其原因在於
+1.CNN架構可以自己設計,基因演算法的基因表達方式也可以自行設計
+2.CNN有個loss function 以及backpropagation,基因演算法有fitness function,都是各自的heart and soul
+3.CNN 的取特徵值得方式與基因演算法的cross有點像
+
+free time:
+以學習基因演算法的方式學習cnn，最後自己動手設計cnn
+```
