@@ -30,3 +30,16 @@ free time:
 free time:
 以學習基因演算法的方式學習cnn，最後自己動手設計cnn
 ```
+```
+20180516
+今天動手設計一個CNN希望能用在Digital watermarking上，20180517research 裡頭有詳細的程式碼
+我們首先自行建立一個CNN，當然weight與bias通通自己訓練，loss function 暫時隨便設計
+然後host image採用512x512 lena大正妹，watermark選擇128x128 binary image
+，接下來找最佳化方式，使用AdamOptimizer
+然後輸出結果在image裡頭，我們訓練140次
+可以看到，lena的畫質逐漸變差，那是因為我們的loss function是隨便設計的，不過這邊可以看出
+我們的嵌入的浮水印的確影響了lena的畫質，這是進了很大的一步，接下來，我們就要審慎思考一個好的loss function
+
+free time
+設計一個好的loss function，然後看視覺品質還有取不取得出浮水印
+```
